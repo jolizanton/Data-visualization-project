@@ -25,7 +25,7 @@ with open(filename_1) as f:
 
     print (f"Sitka :{rainfall_s}")
 
-# File1
+# File2
 with open(filename_2) as f:
     reader_2 = csv.reader(f)
     header_row_2 = next(reader_2)
