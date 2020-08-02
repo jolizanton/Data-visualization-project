@@ -18,6 +18,7 @@ print(f"Total repositories: {response_dict['total_count']}")
 items_repositories_dicts= response_dict['items']
 print (f"Repositories returned: {len(items_repositories_dicts)}")
 
+
 #Examine the first repository
 print(f"First repository: {items_repositories_dicts[0]}")
 items_repositories_dict_first= items_repositories_dicts[0]
@@ -49,3 +50,4 @@ for items_repositories_dict in items_repositories_dicts:
     print(f"html_url: {items_repositories_dict['html_url']}")
     print(f"created_at: {items_repositories_dict['created_at']}")
     print(f"updated_at: {items_repositories_dict['updated_at']}")
+
